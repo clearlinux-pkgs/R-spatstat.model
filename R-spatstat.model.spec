@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.model
 Version  : 3.2.1
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/spatstat.model_3.2-1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.model_3.2-1.tar.gz
 Summary  : Parametric Statistical Modelling and Inference for the
@@ -30,9 +30,6 @@ BuildRequires : R-spatstat.sparse
 BuildRequires : R-spatstat.utils
 BuildRequires : R-tensor
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 mainly spatial point patterns, in the 'spatstat' family of packages.
@@ -58,10 +55,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1676518607
+export SOURCE_DATE_EPOCH=1678831774
 
 %install
-export SOURCE_DATE_EPOCH=1676518607
+export SOURCE_DATE_EPOCH=1678831774
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
