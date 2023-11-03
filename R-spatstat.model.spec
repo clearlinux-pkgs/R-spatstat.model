@@ -7,7 +7,7 @@
 #
 Name     : R-spatstat.model
 Version  : 3.2.8
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/spatstat.model_3.2-8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.model_3.2-8.tar.gz
 Summary  : Parametric Statistical Modelling and Inference for the
